@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="STEEP_FLANKED_BEVEL_GROOVE_SINGLE_BEVEL_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEEP_FLANKED_BEVEL_GROOVE_SINGLE_BEVEL_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STEEP_FLANKED_BEVEL_GROOVE_SINGLE_V_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEEP_FLANKED_BEVEL_GROOVE_SINGLE_V_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_BEVEL_BACKING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_BEVEL_BACKING.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_BEVEL_GROOVE_SINGLE_BEVEL_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_BEVEL_GROOVE_SINGLE_BEVEL_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_BEVEL_GROOVE_SINGLE_V_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_BEVEL_GROOVE_SINGLE_V_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_CORNER_FLANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_CORNER_FLANGE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_EDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_EDGE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_EDGE_FLANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_EDGE_FLANGE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_FILLET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_FILLET.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_FLARE_BEVEL_GROOVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_FLARE_BEVEL_GROOVE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_FLARE_V_GROOVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_FLARE_V_GROOVE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_FOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_FOLD.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_INCLINED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_INCLINED.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_ISO_SURFACING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_ISO_SURFACING.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_J_GROOVE_J_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_J_GROOVE_J_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_MELT_THROUGH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_MELT_THROUGH.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_NONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_NONE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_NONE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_NONE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_PARTIAL_PENETRATION_SINGLE_BEVEL_BUTT_PLUS_FILLET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_PARTIAL_PENETRATION_SINGLE_BEVEL_BUTT_PLUS_FILLET.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_PARTIAL_PENETRATION_SQUARE_GROOVE_PLUS_FILLET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_PARTIAL_PENETRATION_SQUARE_GROOVE_PLUS_FILLET.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_PLUG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_PLUG.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SEAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SEAM.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SINGLE_BEVEL_BUTT_WITH_BROAD_ROOT_FACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SINGLE_BEVEL_BUTT_WITH_BROAD_ROOT_FACE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SINGLE_V_BUTT_WITH_BROAD_ROOT_FACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SINGLE_V_BUTT_WITH_BROAD_ROOT_FACE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SLOT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SLOT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SPOT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SPOT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_SQUARE_GROOVE_SQUARE_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_SQUARE_GROOVE_SQUARE_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELD_TYPE_U_GROOVE_SINGLE_U_BUTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELD_TYPE_U_GROOVE_SINGLE_U_BUTT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
