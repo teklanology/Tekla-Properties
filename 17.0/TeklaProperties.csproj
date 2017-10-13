@@ -42,15 +42,15 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Tekla.Structures, Version=17.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>True</SpecificVersion>
       <HintPath>..\..\..\..\..\..\TeklaStructures\17.0\nt\bin\plugins\Tekla.Structures.dll</HintPath>
     </Reference>
     <Reference Include="Tekla.Structures.Drawing, Version=17.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>True</SpecificVersion>
       <HintPath>..\..\..\..\..\..\TeklaStructures\17.0\nt\bin\plugins\Tekla.Structures.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Tekla.Structures.Model, Version=17.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>True</SpecificVersion>
       <HintPath>..\..\..\..\..\..\TeklaStructures\17.0\nt\bin\plugins\Tekla.Structures.Model.dll</HintPath>
     </Reference>
   </ItemGroup>
